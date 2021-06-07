@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int c,d,*a,*b;
+    scanf("%d",&c);
+    scanf("%d",&d);
+    a=c+d;
+    b=abs(c-d);
+    printf("%d\n",a);
+    printf("%d\n",b);
+    return 0;
+}
